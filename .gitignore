@@ -1,5 +1,11 @@
 # Byte-compiled / optimized / DLL files
+.venv/
 __pycache__/
+*.ipynb_checkpoints/
+data/*.csv
+data/*.xlsx
+data/*.parquet
+!data/.gitkeep
 *.py[cod]
 *$py.class
 
